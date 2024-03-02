@@ -1,0 +1,143 @@
+.nav .nav-item .nav-link:hover,
+.nav .nav-item .nav-link:focus {
+    background-color: transparent;
+}
+
+.navbar {
+    border: none;
+    font-size: 1rem; /* Example replacement for $font-size-base */
+    transition: all 0.4s;
+    padding: 0;
+    background: #ffffff; /* Example replacement for $white-color */
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+}
+
+.navbar .navbar-brand {
+    font-weight: bold; /* Example replacement for $font-weight-bold */
+    margin: 1rem; /* Example replacement for $navbar-margin-brand */
+    padding: 1rem; /* Example replacement for $navbar-padding-brand */
+    font-size: 1rem; /* Example replacement for $font-size-base */
+    color: #000000; /* Example replacement for $default-color */
+    text-transform: uppercase;
+}
+
+.navbar .navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar .form-control-feedback {
+    padding-left: 0px;
+}
+
+.navbar-toggler {
+    background: #000000 !important; /* Assuming $default-color is black */
+}
+
+.navbar-nav .nav-item .nav-link {
+    line-height: 1.6;
+    margin: 1rem; /* Example replacement for $navbar-margin-a */
+    padding: 1rem; /* Example replacement for $navbar-padding-a */
+    opacity: 0.8;
+    font-size: 0.875rem; /* Example replacement for $font-size-small */
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000000; /* Example replacement for $default-color */
+}
+
+.navbar-nav .nav-item .nav-link p {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.5em;
+    padding: 15px 0;
+}
+
+.navbar-nav .nav-item .nav-link.btn {
+    margin: 1rem; /* Assuming some value for $navbar-margin-a-btn */
+    padding: 9px;
+}
+
+.navbar-nav .nav-item .nav-link [class^="fa"] {
+    font-size: 17px;
+    position: relative;
+    right: 5px;
+}
+
+.dropdown-menu {
+    border-radius: 9999px; /* Assuming an extreme value for $border-radius-extreme */
+    margin-top: 1px;
+}
+
+.nav-item .btn i {
+    color: #ffffff; /* Assuming $white-color */
+}
+
+.navbar-collapse .nav-item .nav-link p {
+    display: inline;
+}
+
+.navbar-collapse.show .navbar-nav .nav-item {
+    padding-right: 10px;
+}
+
+.navbar-collapse:after {
+    background-color: #FFFCF5;
+}
+
+#navbarSupportedContent .nav-item {
+    position: relative;
+}
+
+.notification-bubble {
+    padding: 0.4em 0.6em;
+    position: absolute;
+    top: 10px;
+    right: -2px;
+}
+
+.btn {
+    margin: 14px 3px;
+    font-size: 0.875rem; /* Example replacement for $font-size-small */
+}
+
+.btn i {
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+}
+
+.btn-simple {
+    font-size: 1.25rem; /* Example replacement for $font-size-medium */
+}
+
+.navbar-transparent {
+    background: transparent !important;
+    padding-top: 25px;
+    box-shadow: none;
+}
+
+.navbar-transparent .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-transparent .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+}
+
+.navbar-transparent .navbar-toggler .navbar-toggler-bar {
+    background: #ffffff !important;
+}
+
+.navbar-absolute {
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    z-index: 1029;
+}
+
+.bd-docs .navigation-example .navbar.navbar-transparent {
+    padding-top: 0;
+    padding: 20px 0;
+    margin-top: 20px;
+}
